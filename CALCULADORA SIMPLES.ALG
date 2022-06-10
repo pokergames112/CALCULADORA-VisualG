@@ -1,17 +1,17 @@
 Algoritmo "CALCULADORA SIMPLES"
-// Disciplina   : [L√≥gica de Programa√ß√£o Algoritima]
-// Autor(a)    : Jo√£o Lucas Sales Fernandes
+// Disciplina   : [LÛgica de ProgramaÁ„o Algoritima]
+// Autor(a)    : Jo„o Lucas Sales Fernandes
 // Data atual  : 10/06/2022
 Var
 n1, n2, r: Real
 operacao: caracter
 
 Inicio
-      Escreval("----Escolha qual opera√ß√£o deseja realizar:----")
-      Escreval("Para Somar escolha o s√≠mbolo : +")
-      Escreval("Para Subtrair escolha o s√≠mbolo: -")
-      Escreval("Para Multiplicar escolha o s√≠mbolo: *")
-      Escreval("Para Dividir escolha o s√≠mbolo: /")
+      Escreval("----Escolha qual operaÁ„o deseja realizar:----")
+      Escreval("Para Somar escolha o sÌmbolo : +")
+      Escreval("Para Subtrair escolha o sÌmbolo: -")
+      Escreval("Para Multiplicar escolha o sÌmbolo: *")
+      Escreval("Para Dividir escolha o sÌmbolo: /")
       leia(operacao)
       Escreval("---------------")
       Escreval("Digite o primeiro valor:")
@@ -30,6 +30,6 @@ Inicio
                    r <- n1 / n2
       fimescolha
       
-      Escreva("O resultado da opera√ß√£o ",n1 ," ",operacao, n2," =",r)
+      Escreva("O resultado da operaÁ„o ",n1 ," ",operacao, n2," =",r)
 
 Fimalgoritmo
